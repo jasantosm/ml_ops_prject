@@ -5,11 +5,11 @@ from prefect import task, flow
 import time
 
 # Variables de Entorno de la base de datos
-db_user = os.getenv('DB_USER')
-db_password = os.getenv('DB_PASSWORD')
-db_host = os.getenv('DB_HOST')
-db_port = os.getenv('DB_PORT')
-db_name = os.getenv('DB_NAME')
+db_user = "postgres"
+db_password = "postgres"
+db_host = "localhost"
+db_port = "5432"
+db_name = "sistema_electrico_raw"
 
 engine = create_engine(f'postgresql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}')
 
