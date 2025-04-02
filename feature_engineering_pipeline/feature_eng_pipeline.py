@@ -1,4 +1,3 @@
-
 import os
 import pandas as pd
 from sqlalchemy import create_engine
@@ -160,7 +159,7 @@ def exportar_a_bd(df: pd.DataFrame, engine, table_name: str):
 # ============================================================================
 # FLOW PRINCIPAL
 # ============================================================================
-@flow(name="Transformaciones_Analitica_Colombia")
+@flow(name="Feature Engineering Pipeline")
 def flujo_transformaciones_analitica():
     """
     Flow que orquesta la lógica completa de transformaciones_analitica.ipynb con Prefect.
