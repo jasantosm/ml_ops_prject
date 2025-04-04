@@ -111,7 +111,6 @@ def predict(data: List[InputData]):
             # Creamos la tabla si no existe
             cur.execute("""
                 CREATE TABLE IF NOT EXISTS predictions (
-                    id SERIAL PRIMARY KEY,
                     prediction_date TIMESTAMP,
                     generacion_sistema_daily FLOAT,
                     generacion_ideal_sistema_daily FLOAT,

@@ -4,6 +4,8 @@ import pandas as pd
 import streamlit as st
 from sqlalchemy import create_engine
 
+st.set_page_config(page_title="Predictor", layout="wide")
+
 # 1. Configuración de la conexión a la base de datos
 db_user = os.getenv("DB_USER", "postgres")
 db_password = os.getenv("DB_PASSWORD", "postgres")
