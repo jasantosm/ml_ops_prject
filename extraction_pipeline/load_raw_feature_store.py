@@ -60,7 +60,7 @@ def get_file_path(folder_path, file_name):
     """Obtiene la ruta completa del archivo."""
     return os.path.join(folder_path, file_name)
 
-@flow
+@flow(name="Load Raw Data Pipeline")
 def flujo_carga():
     files = list_files(folder_path)
     for file_name in files:

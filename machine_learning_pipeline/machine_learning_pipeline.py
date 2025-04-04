@@ -136,7 +136,7 @@ def evaluate_model(model, X_test, y_test):
 # -----------------------------------------------------------------------------
 # 3. FLUJO PRINCIPAL DE PREFECT
 # -----------------------------------------------------------------------------
-@flow(name="xgboost_training_flow")
+@flow(name="XGBoost Model Training Pipeline")
 def main_flow():
     """
     Orquesta el pipeline completo:
