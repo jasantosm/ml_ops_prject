@@ -1,0 +1,21 @@
+[
+    {
+    "generacion_sistema_daily": 115419084.5,
+    "generacion_ideal_sistema_daily": 115440934.1,
+    "perdidas_sistema_daily": 2079352.97,
+    "volumen_util_energia_sistema_daily": 10006614779,
+    "emisiones_sistema_daily": 0,
+    "aportes_energia_sistema_daily": 45616100,
+    "aportes_energia_mediaHist_sistema_daily": 75130000,
+    "capacidad_util_energia_sistema_daily": 15428396811,
+    "demanda_real_sistema_daily": 113361581.1,
+    "exportaciones_sistema_daily": 4536.91,
+    "importaciones_sistema_daily": 21849.64,
+    "precio_escasez_sistema_daily": 356.70894,
+    "comsumo_combustible_daily": 727881.567,
+    "disponibilidad_real_daily": 12019253.33
+  },
+  {
+    "precio_bolsa_sistema_daily": 120.5012283
+  }
+]
